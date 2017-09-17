@@ -958,3 +958,5 @@ d3.wordwrap = function(line, maxCharactersPerLine) {
   }
   return lines;
 };
+
+$('.lead-img-desktop').height($(window).height()-40)

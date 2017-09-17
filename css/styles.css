@@ -69,7 +69,7 @@ body{
 }
 
 .copy-container{
-    padding-top: 7em;
+    padding-top: 3em;
 } 
 
 .copy-container p{
@@ -202,7 +202,7 @@ section h2{
 
 .related-stories.copy{
     padding-top: 30px;
-    max-width: 1300px;
+    max-width: 1050px;
     border-top: 1px solid #ddd;
 }
 
@@ -219,9 +219,7 @@ section h2{
 }
 .related-stories img{
     width: 220px;
-    @media(max-width: 700px){
-        width: 90%;
-    }
+    
 }
 .related-stories a{
     color: inherit;
@@ -235,13 +233,7 @@ section h2{
     margin-right: 2em;
     vertical-align: top;
     text-align: left;
-    @media(max-width: 700px){
-        margin-right: auto;
-        margin-bottom: 2em;
-        margin-left: auto;
-        width: 90%;
-        max-width: 100%;
-    }
+    
 }
 .related-story:hover{
     opacity: 0.8;
@@ -288,9 +280,14 @@ section h2{
     display: table;
 }
 
+.social-shares{text-align: center; margin:0 0 5em auto;font-size: 1.1em; font-family:PT Serif,serif}.social-shares .social{border-radius:6px;padding:.2em 0.6em;width:150px;display:inline-block;text-align:left;color:#fff;font-style:italic;font-size:1.3em;margin:0 10px;cursor:pointer}.social-shares .social i{font-size:1.2em;vertical-align:middle;margin-right:20px}.social-shares .social.facebook{background-color:#3b5998;border:2px solid #3b5998}.social-shares .social.twitter{background-color:#1da1f2;border:2px solid #1da1f2}.social-shares .social.whatsapp{background-color:#43d854;border:2px solid #43d854;display:none}.social-shares .social:hover{background-color:#fafafa!important}.social-shares .social.facebook:hover{color:#3b5998}.social-shares .social.twitter:hover{color:#1da1f2}.social-shares .social.whatsapp:hover{color:#43d854}
+@media (max-width:800px){
+    .social-shares {text-align: center; font-size: 1em;}.social-shares .social.whatsapp{background-color:#43d854;display:inline-block}.social-shares .social{width:auto;padding:.2em .8em}.social-shares .social i{margin-right:0}.social-shares .social span{display:none}.social-shares .social{margin:0 5px;border-radius:4px}}
+
+
 @media(max-width: 1300px){
     .copy-container{
-       padding-top: 0.5em; 
+       padding-top: 2em; 
     }
 
     .locator-con{
@@ -359,7 +356,26 @@ section h2{
         
     }
 
+    .related-story{
+        margin-right: auto;
+        margin-bottom: 2em;
+        margin-left: auto;
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .related-stories img{
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .footer-basic-centered .footer-links,.footer-basic-centered .footer-company-name{
             float: none;
         }
+}
+
+video{
+        height: 100%;
+        width: 100%;
+        margin: 0;
 }
