@@ -100,8 +100,9 @@ body{
 
 .headline-container{
     text-align: left;
-    margin-left: 1em;
+    padding-left: 1em;
     max-width: 450px;
+    width: 100%;
 }
 
 .story .headline{
@@ -114,6 +115,7 @@ body{
 .story .subhed{
     font-weight: normal;
     padding-bottom: 1.5em;
+
 }
 
 .series-name{
@@ -282,7 +284,7 @@ section h2{
 
 .social-shares{text-align: center; margin:0 0 5em auto;font-size: 1.1em; font-family:PT Serif,serif}.social-shares .social{border-radius:6px;padding:.2em 0.6em;width:150px;display:inline-block;text-align:left;color:#fff;font-style:italic;font-size:1.3em;margin:0 10px;cursor:pointer}.social-shares .social i{font-size:1.2em;vertical-align:middle;margin-right:20px}.social-shares .social.facebook{background-color:#3b5998;border:2px solid #3b5998}.social-shares .social.twitter{background-color:#1da1f2;border:2px solid #1da1f2}.social-shares .social.whatsapp{background-color:#43d854;border:2px solid #43d854;display:none}.social-shares .social:hover{background-color:#fafafa!important}.social-shares .social.facebook:hover{color:#3b5998}.social-shares .social.twitter:hover{color:#1da1f2}.social-shares .social.whatsapp:hover{color:#43d854}
 @media (max-width:800px){
-    .social-shares {text-align: center; font-size: 1em;}.social-shares .social.whatsapp{background-color:#43d854;display:inline-block}.social-shares .social{width:auto;padding:.2em .8em}.social-shares .social i{margin-right:0}.social-shares .social span{display:none}.social-shares .social{margin:0 5px;border-radius:4px}}
+    .social-shares {text-align: center; font-size: 1em;}.social-shares .social.whatsapp{background-color:#43d854;display:inline-block}.social-shares .social{width:auto;padding:.2em .8em}.social-shares .social i{margin-right:0}.social-shares .social span{display:none}.social-shares .social{margin:0 0;border-radius:0px;width: 33%; text-align: center;border-width: 4px!important}}
 
 
 @media(max-width: 1300px){
