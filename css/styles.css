@@ -277,6 +277,12 @@ section h2{
     margin-right: 5px;
 }
 
+.section-break{
+    margin: 1.5em auto;
+    max-width: 300px;
+    display: table;
+}
+
 @media(max-width: 1300px){
     .copy-container{
        padding-top: 0.5em; 
