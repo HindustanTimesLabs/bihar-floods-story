@@ -45,7 +45,7 @@
   text-align: center;
   margin-bottom: 10px;
 }
-.map-wrapper .legend-daily svg, .map-wrapper .legend-death-circles svg {
+.map-wrapper .legend-daily, .map-wrapper .legend-death-circles {
   margin: 0 auto;
   display: table;
 }
