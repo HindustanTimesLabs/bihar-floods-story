@@ -858,7 +858,7 @@ function drawBar(){
         side: "right"
       },{
         year: "2017",
-        text: "This year, flooding was more lethal in Araria, where 95 of the 514 people died, than in any other district of Bihar.",
+        text: "This year, flooding was most lethal in Araria, where 95 of the 514 people died, more than in any other district of Bihar.",
         side: "top-left"
       }];
       annotations.forEach(function(annotation){ 
