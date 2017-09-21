@@ -3,7 +3,7 @@
 - **Description**: The state's annual tragedy is striking new areas and growing more intense
 - **Author**: Aman Sethi
 - **Graphics**: Harry Stevens
-- **Production**: Gurman Bhati
+- **Production**: Gurman Bhatia
 - **Photo**: Sanshey Biswas
 - **Editing**: Alex Traub
 - **Date**: 18 September, 2017
